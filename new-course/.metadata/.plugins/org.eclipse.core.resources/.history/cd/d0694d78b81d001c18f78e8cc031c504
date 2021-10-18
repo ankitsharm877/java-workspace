@@ -1,0 +1,9 @@
+package demo.exceptions.handling;
+
+public class TestExceptionHandling {
+
+	public static void main(String[] args) {
+		int a, b,c;
+		
+	}
+}

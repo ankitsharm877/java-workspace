@@ -1,0 +1,5 @@
+package demo.singleton.classes;
+
+public class DemoSingleton {
+
+}

@@ -1,0 +1,5 @@
+package demo.staticinner.classes;
+
+public class Outer {
+
+}

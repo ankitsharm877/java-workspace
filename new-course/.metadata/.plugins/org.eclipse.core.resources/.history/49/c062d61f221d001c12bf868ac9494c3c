@@ -1,0 +1,10 @@
+package interfaces.practice;
+
+public class InterfacePractice {
+
+	public static void main(String[] args) {
+		CClass cClass = new CClass();
+		cClass.X = 10;
+		System.out.println(cClass.X);
+	}
+}

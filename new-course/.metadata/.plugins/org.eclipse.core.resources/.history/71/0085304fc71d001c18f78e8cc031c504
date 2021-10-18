@@ -1,0 +1,5 @@
+package demo.thread.classes;
+
+public class ThreadClass {
+
+}

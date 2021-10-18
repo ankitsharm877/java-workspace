@@ -1,0 +1,6 @@
+package demo.interfaces;
+
+public interface Test1 {
+	void meth1();
+	void meth2();
+}

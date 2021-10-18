@@ -1,0 +1,23 @@
+package demo.exceptions.handling;
+
+public class TestNestedTryCatch {
+	public static void main(String[] args) {
+		try {
+			int A[] = {1,0,3,4,5};
+			int r;
+			try {
+				r = A[0] / A[1];
+			} catch (ArithmeticException ae) {
+				ae.printStackTrace();
+			}
+			System.out.println(r);
+			System.out.println(A[10]);
+		} catch (IndexOutOfBoundsException ioe) {
+			ioe.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

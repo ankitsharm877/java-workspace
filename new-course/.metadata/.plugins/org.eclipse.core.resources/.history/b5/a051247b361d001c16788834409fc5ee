@@ -1,0 +1,10 @@
+package demo.inner.classes;
+
+public class DemoInnerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

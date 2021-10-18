@@ -1,0 +1,6 @@
+package demo.statickeywords.members;
+
+public class HondaCity {
+	static long price = 10L;
+	int a, b;
+}

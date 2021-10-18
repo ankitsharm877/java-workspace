@@ -1,0 +1,20 @@
+package demo.multi.threading.monitor;
+
+public class Snippet {
+	xtends Thread
+	{
+	    MyData d;
+	    public MyThread1(MyData d)
+	    {
+	        this.d=d;
+	    }
+	    
+	    public void run()
+	    {
+	        d.display("Hello World");
+	    }
+	            
+	    
+	}
+}
+

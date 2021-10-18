@@ -1,0 +1,5 @@
+package demo.anonymous.inner.classes;
+
+public class OuterClass {
+
+}

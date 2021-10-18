@@ -1,0 +1,6 @@
+package interfaces.practice;
+
+public interface IInterface {
+	void meth1();
+	void meth2();
+}

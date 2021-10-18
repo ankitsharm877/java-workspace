@@ -1,0 +1,5 @@
+package demo.abstractrules;
+
+public abstract class AbstractClass2 extends{
+	abstract void abstractMethod2();
+}

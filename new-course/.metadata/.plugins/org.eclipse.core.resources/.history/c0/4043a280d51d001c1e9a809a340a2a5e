@@ -1,0 +1,5 @@
+package demo.inter.thread.communication;
+
+public class Consumer {
+
+}

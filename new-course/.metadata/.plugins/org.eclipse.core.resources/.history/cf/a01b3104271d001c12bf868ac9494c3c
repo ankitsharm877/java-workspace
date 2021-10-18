@@ -1,0 +1,8 @@
+package multiple.interfaces.conflict.rule1;
+
+public interface InterfaceC {
+
+	default void print() {
+		System.out.println("InterfaceC - print()");
+	}
+}

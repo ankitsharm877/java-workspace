@@ -1,0 +1,20 @@
+package demo.thread.classes;
+
+import demo.thread.MyThread;
+
+public class Test {
+
+	public static void main(String[] args) 
+    {
+        //Thread t=new Thread(new MyRun(),"My Name");
+        MyThread t=new MyThread("My Thread 1");
+        t.start();
+        t.interrupt();
+        /*System.out.println("ID "+t.getId());
+        System.out.println("Name "+t.getName());
+        System.out.println("Priority "+t.getPriority());
+        t.start();
+        System.out.println("State "+t.getState());
+        System.out.println("Alive "+t.isAlive());*/
+    }
+}

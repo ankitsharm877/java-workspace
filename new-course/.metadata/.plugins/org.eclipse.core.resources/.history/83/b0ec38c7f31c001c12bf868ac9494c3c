@@ -1,0 +1,11 @@
+
+public class Sub extends Super{
+	
+	Sub() {
+		System.out.println("Sub");
+	}
+
+	void meth2() {
+		System.out.println("Sub Meth2");
+	}
+}

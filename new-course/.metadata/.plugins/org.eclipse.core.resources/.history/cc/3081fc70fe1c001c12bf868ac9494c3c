@@ -1,0 +1,5 @@
+package demo.abstractrules;
+
+public abtract class ChildAbstractClass extends ConcreteClass{
+
+}

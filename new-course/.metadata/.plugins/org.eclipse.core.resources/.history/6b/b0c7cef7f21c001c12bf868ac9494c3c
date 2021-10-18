@@ -1,0 +1,10 @@
+
+public abstract class Super {
+	Super() {
+		
+	}
+	void meth1() {
+		
+	}
+	abstract void meth2();
+}

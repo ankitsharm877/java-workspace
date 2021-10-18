@@ -1,0 +1,7 @@
+package multiple.interfaces.conflict.rule3;
+
+public interface ClassA {
+	public void print() {
+		System.out.println("Class A - print()");
+	}
+}

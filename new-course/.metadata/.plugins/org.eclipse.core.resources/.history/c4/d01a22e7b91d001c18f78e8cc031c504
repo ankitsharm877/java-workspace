@@ -1,0 +1,13 @@
+package demo.exceptions.handling;
+
+public class TestFinallyBlock {
+	public static void main(String[] args) {
+		try {
+			
+		} catch () {
+			
+		} finally {
+			
+		}
+	}
+}

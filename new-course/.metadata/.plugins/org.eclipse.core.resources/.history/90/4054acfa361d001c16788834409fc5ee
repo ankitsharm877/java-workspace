@@ -1,0 +1,19 @@
+package demo.inner.classes;
+
+public class OuterClass {
+	int x = 10;
+	
+	public class InnerClass {
+		int y = 20;
+		void displayInner() {
+			System.out.println(x);
+			System.out.println(y);
+		}
+	}
+	
+	void displayOuter() {
+		InnerClass innerClass = new InnerClass();
+		innerClass.displayInner();
+		System.out.println("outer class  y: " + innerClass.y);
+	}
+}

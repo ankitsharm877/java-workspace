@@ -1,0 +1,5 @@
+package demo.local.inner.classes;
+
+public class OuterClass {
+
+}

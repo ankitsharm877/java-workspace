@@ -1,0 +1,9 @@
+package demo.finalkeyword.members;
+
+public class Super {
+	final float PI;
+	PI = 3.4f;
+	final void meth1() {
+		System.out.println("meth1");
+	}
+}

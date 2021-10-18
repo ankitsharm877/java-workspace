@@ -1,0 +1,5 @@
+package demo.abstractrules;
+
+public class AbstractClass1 {
+	abtract void abstractMethod1();
+}

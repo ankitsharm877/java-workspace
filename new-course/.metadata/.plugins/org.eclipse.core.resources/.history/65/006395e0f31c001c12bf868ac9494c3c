@@ -1,0 +1,11 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Super s1;
+		//s1 = new Super();
+		s1 = new Sub(1,2);
+		
+		Sub s2 = new Sub(2,3);
+	}
+}

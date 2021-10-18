@@ -1,0 +1,8 @@
+package demo.inner.classes;
+
+public class OuterClass {
+
+	public class InnerClass {
+		
+	}
+}

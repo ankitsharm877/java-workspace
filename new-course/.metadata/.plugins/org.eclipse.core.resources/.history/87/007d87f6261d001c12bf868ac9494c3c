@@ -1,0 +1,10 @@
+package multiple.interfaces.conflict.rule1;
+
+public class Rule1Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

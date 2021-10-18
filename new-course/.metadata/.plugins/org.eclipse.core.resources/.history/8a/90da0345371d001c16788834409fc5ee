@@ -1,0 +1,13 @@
+package demo.inner.classes;
+
+public class DemoInnerClass {
+
+	public static void main(String[] args) {
+		OuterClass outerClass = new OuterClass();
+		//outerClass.displayOuter();
+		
+		OuterClass.InnerClass innerClass = new OuterClass().new InnerClass();
+
+	}
+
+}

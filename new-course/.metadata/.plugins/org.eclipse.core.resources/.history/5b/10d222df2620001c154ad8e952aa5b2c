@@ -1,0 +1,16 @@
+package demo.statickeywords.blocks;
+
+public class Test {
+	static {
+		System.out.println("main static block 1");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(StaticBlock.a);
+		System.out.println("Main static method");
+	}
+	static {
+		System.out.println("main static block 2");
+	}
+
+}

@@ -1,0 +1,13 @@
+package demmo.abtractclasses;
+
+public abstract class Super {
+	int dm1;
+	Super(int dm1) {
+		this.dm1 = dm1;
+		System.out.println("Super Constructor " + this.dm1);
+	}
+	void meth1() {
+		System.out.println("Super Meth1");
+	}
+	abstract void meth2();
+}

@@ -1,0 +1,8 @@
+package interfaces.practice;
+
+public class InterfacePractice {
+
+	public static void main(String[] args) {
+		
+	}
+}

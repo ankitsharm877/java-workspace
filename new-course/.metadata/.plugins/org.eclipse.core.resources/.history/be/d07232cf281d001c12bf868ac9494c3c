@@ -1,0 +1,7 @@
+package multiple.interfaces.conflict.rule3;
+
+public interface InterfaceN extends InterfaceM{
+	default void show() {
+		System.out.println("Interface N - show()");
+	}
+}

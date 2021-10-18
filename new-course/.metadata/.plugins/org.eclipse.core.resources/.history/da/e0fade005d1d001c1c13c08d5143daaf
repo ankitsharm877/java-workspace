@@ -1,0 +1,13 @@
+package demo.statickeywords.blocks;
+
+public class StaticBlock {
+
+	static int a;
+	
+	static {
+		System.out.println("static block 1");
+	}
+	static {
+		System.out.println("static block 2");
+	}
+}

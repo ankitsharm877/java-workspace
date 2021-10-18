@@ -1,0 +1,16 @@
+package demo.anonymous.inner.classes;
+
+public class OuterClass {
+
+	public void meth() {
+		MyClass myClass = new MyClass() {
+			
+			@Override
+			void display() {
+				System.out.println("Display");
+				
+			}
+		};
+		myClass.display();
+	}
+}

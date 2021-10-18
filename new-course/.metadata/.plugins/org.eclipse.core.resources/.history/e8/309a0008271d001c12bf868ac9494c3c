@@ -1,0 +1,5 @@
+package multiple.interfaces.conflict.rule1;
+
+public class ClassD extends ClassA implements InterfaceB, InterfaceC{
+
+}

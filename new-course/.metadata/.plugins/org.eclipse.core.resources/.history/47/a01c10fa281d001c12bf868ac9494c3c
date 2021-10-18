@@ -1,0 +1,11 @@
+package multiple.interfaces.conflict.rule3;
+
+public class ClassC implements InterfaceA, InterfaceB{
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		InterfaceA.super.print();
+	}
+
+}

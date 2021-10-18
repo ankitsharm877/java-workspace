@@ -1,0 +1,17 @@
+package demo.kfc;
+
+public class MyKfc extends Kfc{
+
+	@Override
+	void billing() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void offer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

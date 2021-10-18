@@ -1,0 +1,15 @@
+package demo.finalkeyword.members;
+
+public class FinalKeyword {
+	final int MIN = 1;
+	final int NORMAL;
+	final int MAX;
+	
+	static {
+		NORMAL = 5;
+	}
+	
+	public FinalKeyword() {
+		MAX = 10;
+	}
+}
